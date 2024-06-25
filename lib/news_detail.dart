@@ -21,7 +21,7 @@ class NewsDetailPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('News Detail'),
+        title: Text(''),
       ),
       body: SingleChildScrollView(
         child: Padding(

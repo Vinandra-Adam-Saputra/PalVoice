@@ -3,6 +3,7 @@ import 'package:palvoice/donation_page.dart';
 import 'news.dart';
 import 'package:palvoice/petition_page.dart';
 import 'product_page.dart';
+import 'about_page.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -41,7 +42,7 @@ class HomePage extends StatelessWidget {
                         Text(
                           'WELCOME TO',
                           style: TextStyle(
-                            fontSize: 24,
+                            fontSize: 22,
                             fontWeight: FontWeight.bold,
                             color: Colors.white,
                             letterSpacing: 2,
@@ -63,7 +64,7 @@ class HomePage extends StatelessWidget {
                             ],
                           ),
                         ),
-                        SizedBox(height: 20),
+                        SizedBox(height: 10),
                         Text(
                           'Ikuti berita terkini, donasi, dan aksi solidaritas dalam satu aplikasi lengkap',
                           style: TextStyle(
@@ -72,7 +73,6 @@ class HomePage extends StatelessWidget {
                             color: Colors.white70,
                           ),
                         ),
-                        SizedBox(height: 20),
                       ],
                     ),
                   ),
@@ -83,8 +83,8 @@ class HomePage extends StatelessWidget {
           Expanded(
             flex: 2,
             child: Container(
-              color: Color(0xFF43753B),
-              padding: const EdgeInsets.all(16.0),
+              color: Colors.green,
+              padding: const EdgeInsets.symmetric(vertical: 16.0, horizontal: 8.0),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
@@ -103,6 +103,12 @@ class HomePage extends StatelessWidget {
                         'Donasi',
                         () => Navigator.push(context, MaterialPageRoute(builder: (context) => DonationPage())),
                       ),
+                      _buildFeatureContainer(
+                        context,
+                        'assets/petition_icon.png',
+                        'Petisi',
+                        () => Navigator.push(context, MaterialPageRoute(builder: (context) => PetitionPage())),
+                      ),
                     ],
                   ),
                   Row(
@@ -110,16 +116,17 @@ class HomePage extends StatelessWidget {
                     children: [
                       _buildFeatureContainer(
                         context,
-                        'assets/petition_icon.png',
-                        'Petisi',
-                        () => Navigator.push(context, MaterialPageRoute(builder: (context) => PetitionPage())),
-                      ),
-                      _buildFeatureContainer(
-                        context,
                         'assets/product_icon.png',
                         'Daftar Produk',
                         () => Navigator.push(context, MaterialPageRoute(builder: (context) => ProductPage())),
                       ),
+                      _buildFeatureContainer(
+                        context,
+                        'assets/about.png',
+                        'About',
+                        () => Navigator.push(context, MaterialPageRoute(builder: (context) => AboutPage())),
+                      ),
+                      SizedBox(width: MediaQuery.of(context).size.width * 0.27), // Placeholder untuk keseimbangan
                     ],
                   ),
                 ],
@@ -136,7 +143,7 @@ class HomePage extends StatelessWidget {
     return GestureDetector(
       onTap: onTap,
       child: Container(
-        width: MediaQuery.of(context).size.width * 0.4,
+        width: MediaQuery.of(context).size.width * 0.27,
         padding: EdgeInsets.all(8),
         decoration: BoxDecoration(
           color: Colors.white,
@@ -155,14 +162,14 @@ class HomePage extends StatelessWidget {
           children: [
             Image.asset(
               imagePath,
-              width: 64,
-              height: 64,
+              width: 50,
+              height: 50,
             ),
-            SizedBox(height: 8),
+            SizedBox(height: 4),
             Text(
               text,
               style: TextStyle(
-                fontSize: 16,
+                fontSize: 15,
                 fontWeight: FontWeight.bold,
               ),
               textAlign: TextAlign.center,
