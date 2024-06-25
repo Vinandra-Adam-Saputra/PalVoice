@@ -10,13 +10,15 @@ PalVoice (Palestine Voice) is a mobile application developed using Flutter. The 
 
 - Presents the latest news about Palestine
 - Uses API from News API to ensure accurate and up-to-date information
-- Users can read and share important news
+- Users can read news summaries within the app
+- A "Read Full Article" button directs users to the original news site for the complete article
 
 ### 2. Donation
 
-- Facilitates users to make donations to various organizations supporting Palestine
-- Integration with various payment methods for ease of transaction
-- Transparency in the use of donation funds
+- Provides a list of organizations supporting Palestine
+- Users can select from various donation options
+- Upon selection, users are directed to the official donation site of the chosen organization
+- All transactions occur on the external donation platforms, not within the app
 
 ### 3. Petitions
 
@@ -28,7 +30,9 @@ PalVoice (Palestine Voice) is a mobile application developed using Flutter. The 
 
 - Displays a list of products affiliated with Israel
 - Data is stored and managed using Firebase Cloud Firestore
-- Users can search, view details, and share product information
+- Users can view product names and categories
+- Features a search function to find products by name
+- Includes a filtering option to sort products by category
 
 ### 5. About Us
 
@@ -87,8 +91,10 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-- Email : adamvinandra767@gmail.com
+For questions or suggestions, please contact:
 
+- Email : adamvinandra767@gmail.com
+- Instagram : @vinandradam
 - Project Link: (https://github.com/Vinandra-Adam-Saputra/PalVoice.git)
 
 ## Acknowledgements
