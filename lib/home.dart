@@ -120,13 +120,13 @@ class HomePage extends StatelessWidget {
                         'Daftar Produk',
                         () => Navigator.push(context, MaterialPageRoute(builder: (context) => ProductPage())),
                       ),
+        
                       _buildFeatureContainer(
                         context,
                         'assets/about.png',
                         'About',
                         () => Navigator.push(context, MaterialPageRoute(builder: (context) => AboutPage())),
                       ),
-                      SizedBox(width: MediaQuery.of(context).size.width * 0.27), // Placeholder untuk keseimbangan
                     ],
                   ),
                 ],

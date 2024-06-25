@@ -84,6 +84,7 @@ flutter:
     - assets/petition_icon.png
     - assets/about.png
     - assets/Free-Palestine.jpg
+    - assets/forum.png
 
   uses-material-design: true
   # To add assets to your application, add an assets section, like this:
