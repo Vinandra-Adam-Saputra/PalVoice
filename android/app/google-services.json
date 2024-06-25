@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "208549941260",
+    "firebase_url": "https://palvoice-database-default-rtdb.firebaseio.com",
+    "project_id": "palvoice-database",
+    "storage_bucket": "palvoice-database.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208549941260:android:c10ed3547d72090b235e29",
+        "android_client_info": {
+          "package_name": "com.exam"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGVsMakjylUdUWeT3R8POrdHAMkkd-Lq0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208549941260:android:a8d1e5259c3daedb235e29",
+        "android_client_info": {
+          "package_name": "com.example.palvoice"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGVsMakjylUdUWeT3R8POrdHAMkkd-Lq0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
