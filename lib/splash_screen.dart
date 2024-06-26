@@ -35,46 +35,9 @@ class _SplashScreenState extends State<SplashScreen> {
           Container(
             decoration: const BoxDecoration(
               image: DecorationImage(
-                image: AssetImage('assets/background.jpg'),
+                image: AssetImage('assets/Splash Screen 2.png'),
                 fit: BoxFit.cover,
               ),
-            ),
-          ),
-          Center(
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Container(
-                  width: 150,
-                  height: 150,
-                  decoration: BoxDecoration(
-                    shape: BoxShape.circle,
-                    color: Color.fromARGB(255, 230, 228, 228),
-                  ),
-                  child: Image.asset(
-                    'assets/PV 4.png', // Ganti dengan path logo Anda
-                    height: 100,
-                  ),
-                ),
-                const SizedBox(height: 8),
-                const Text(
-                  'PALVOICE',
-                  style: TextStyle(
-                    fontSize: 40,
-                    fontWeight: FontWeight.bold,
-                    color: Colors.white,
-                  ),
-                ),
-                const SizedBox(height: 6),
-                const Text(
-                  '#HearPalestine',
-                  style: TextStyle(
-                    fontSize: 20,
-                    color: Colors.white,
-                  ),
-                ),
-
-              ],
             ),
           ),
         ],

@@ -85,6 +85,8 @@ flutter:
     - assets/about.png
     - assets/Free-Palestine.jpg
     - assets/forum.png
+    - assets/Splash Screen.png
+    - assets/Splash Screen 2.png
 
   uses-material-design: true
   # To add assets to your application, add an assets section, like this:
