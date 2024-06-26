@@ -40,7 +40,28 @@ class PetitionPage extends StatelessWidget {
       'url':
           'https://www.amnesty.org/en/petition/demand-a-ceasefire-by-all-parties-to-end-civilian-suffering/'
     },
-    // Tambahkan lebih banyak data petisi sesuai kebutuhan
+    {
+      'image': 'assets/petition-7.jpg',
+      'title':
+          'PETISI UNTUK MELINDUNGI RUMAH SAKIT INDONESIA DI GAZA UTARA',
+      'url':
+          'https://www.change.org/p/petisi-untuk-melindungi-rumah-sakit-indonesia-di-gaza-utara'
+    },
+      {
+      'image': 'assets/petition-8.jpg',
+      'title':
+          '#CeasefireNow: Open Call for an Immediate Ceasefire in the Gaza Strip and Israel',
+      'url':
+          'https://www.change.org/p/sign-and-share-this-urgent-petition-calling-for-a-ceasefirenow-in-gaza-and-israel'
+    },
+    {
+      'image': 'assets/petition-9.jpg',
+      'title':
+          'Invoke Article 6 and Expel the US from the United Nations',
+      'url':
+          'https://www.change.org/p/invoke-article-6-and-expel-the-us-from-the-united-nations'
+    },
+
   ];
 
   @override
