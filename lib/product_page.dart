@@ -114,7 +114,7 @@ class _ProductPageState extends State<ProductPage> {
       ),
       child: InkWell(
         onTap: () {
-          // Tambahkan fungsi untuk menampilkan detail produk jika diperlukan
+        
         },
         child: Padding(
           padding: const EdgeInsets.all(12.0),
