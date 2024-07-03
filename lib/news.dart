@@ -20,7 +20,7 @@ class _NewsPageState extends State<NewsPage> {
 
   Future<void> fetchArticles() async {
     final response = await http.get(Uri.parse(
-        'https://newsapi.org/v2/everything?q=palestine&from=2024-06-27&to=2025-08-25&sortBy=popularity&apiKey=434cbe4da7a84a18bd36b1c8fa9c7426'));
+        'https://newsapi.org/v2/everything?q=palestine&from=2024-07-01&to=2025-08-25&sortBy=popularity&apiKey=434cbe4da7a84a18bd36b1c8fa9c7426'));
 
     if (response.statusCode == 200) {
       setState(() {
