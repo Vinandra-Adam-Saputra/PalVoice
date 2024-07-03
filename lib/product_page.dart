@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'product_model.dart';
-import 'product_service.dart';
+import '../product_model.dart';
+import '../product_service.dart';
 
 class ProductPage extends StatefulWidget {
   @override
