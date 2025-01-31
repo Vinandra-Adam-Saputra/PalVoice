@@ -88,7 +88,7 @@ We greatly appreciate contributions from the community. If you want to contribut
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the [MIT License](LICENSE)
 
 ## Contact
 
