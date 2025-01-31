@@ -1,4 +1,5 @@
 # PalVoice: Palestine Voice
+![iphone-x-in-hand-mockup](https://github.com/user-attachments/assets/211742a7-b0af-4f6a-8760-a3de81db0b86)
 
 ## Description
 
@@ -94,7 +95,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 For questions or suggestions, please contact:
 
 - Email : adamvinandra767@gmail.com
-- Instagram : @vinandradam
 - Project Link: (https://github.com/Vinandra-Adam-Saputra/PalVoice.git)
 
 ## Acknowledgements
